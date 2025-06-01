@@ -1,0 +1,237 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial;
+    color:#333;
+    background-image:url("background_tarea.jpg");
+	background-repeat:repeat;
+	margin:2rem auto;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: #fff;
+}
+
+.cabecera {
+    background-color: #F7C674;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.cabecera h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.menu-navegacion ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #F59856;
+    padding: 0.5rem;
+}
+
+.menu-navegacion li {
+    margin: 0 1rem;
+}
+
+.menu-navegacion a {
+    color: #fff;
+    text-decoration:none;
+    padding:10px;
+    display: block;
+}
+
+.menu-navegacion a:hover {
+    background-color:#F2D33A;
+    color: #fff;
+}
+
+.contenido-principal {
+    padding: 100px;
+}
+
+.seccion {
+    margin-bottom:3rem;
+    padding-bottom:3rem;
+	
+}
+
+
+.seccion h2 {
+    color:#4a6fa5;
+    font-size:30px;
+    border-bottom-color:#4a6fa5;
+	border-bottom-width:3px;
+	border-bottom:solid;
+	margin:3rem auto;
+}
+
+.inicio {
+    text-align:center;
+}
+.inicio p strong {
+    font-size:20px;
+}
+.inicio img {
+    max-width:100%;
+    height:auto;
+    margin-top:30px;
+}
+
+.filtros {
+    background-color:#F5DB6C;
+    padding:1.5rem;
+    margin-bottom:2rem;
+}
+
+.filtros h3 {
+    margin-bottom:1rem;
+    color:#000;
+}
+
+.filtros form {
+    display:flex;
+}
+
+
+.filtros select {
+    padding:0;
+    border:1px solid #000;
+    margin:0 auto;
+}
+
+
+.perro {
+    background-color:white;
+    padding:2rem 0;
+    transition:transform 0.3s, box-shadow 0.3s;
+    text-align:center;
+	border-bottom:3px dashed #F7DA4A;
+}
+
+.perro:hover {
+    background-color:#F2F5C6;
+}
+
+.perro img {
+    width:800px;
+    height:800px;
+    border: 3px solid #f00;
+	object-fit:fill ;
+	margin:1rem auto;
+}
+
+.perro h3 {
+    color:#000;
+    margin-bottom:1rem;
+	font-size:2rem;
+}
+
+.perro p {
+    margin-bottom:0.5rem;
+    color:#000;
+	font-size:1.5rem;
+}
+
+.perro button {
+    margin-top:1rem;
+    padding:0.5rem 1rem;
+    background-color:#4a6fa5;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:1.5rem;
+}
+
+.perro button:hover {
+    background-color: #0a0;
+}
+.seccion ol li p{
+	font-size:20px;
+	margin-bottom:2rem;
+}
+
+
+.seccion ol li h3 {
+    color: #000;
+    margin-bottom:0;
+	font-size:20px;
+}
+
+
+.seccion form {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    background-color: #f0f7ff;
+    padding:2rem;
+}
+
+.seccion form label {
+    
+    margin-bottom:0.5rem;
+    font-weight:bold;
+    color:#000;
+	
+}
+
+.seccion form input{
+	width: 100%;
+    padding:0.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    
+    font-family: Arial;
+}
+
+
+
+.seccion form textarea {
+    width:582px;
+	height:150px;
+    padding:0.75rem;
+    margin-bottom: 1rem;
+    font-family: Arial;
+	border-color:#000;
+}
+
+}
+
+.seccion form button {
+    padding: 0.75rem 1.5rem;
+    background-color:#fff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.seccion form button:hover {
+    background-color:#C8ED61;
+}
+
+.info-contacto {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.info-contacto h3 {
+    color:#F09822;
+    margin-bottom:0.5rem;
+}
+
+.info-contacto p {
+    margin-bottom: 1rem;
+    font-style: normal;
+}
+
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Adopta un Perro</title>
+<link rel="StyleSheet" href="mascotas.css" type="text/css">
+</head>
+<body>
+    <div id="contenedor">
+        <div class="cabecera">
+            <h1>Adopta un Perro</h1>
+            <div class="menu-navegacion">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#perros">Perros en Adopción</a></li>
+                    <li><a href="#proceso">Proceso de Adopción</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+	
+        <div class="contenido-principal">
+            <a name="inicio"></a>
+            <div class="inicio seccion">
+                <h2>Bienvenido a nuestro refugio</h2>
+                <p><strong>Encuentra a tu compañero canino perfecto</strong></p>
+                <img src="perrotriste.jpeg" alt="perro triste">
+            </div>
+
+            <a name="perros"></a>
+            <div class="seccion">
+                <h2>Nuestros Perros</h2>
+                <div class="filtros">
+                    <h3>Filtrar por:</h3>
+                    <form>
+                        <label for="tamaño">Tamaño:</label>
+                        <select id="tamaño" name="tamaño">
+                            <option value="todos">Todos</option>
+                            <option value="pequeno">Pequeño</option>
+                            <option value="mediano">Mediano</option>
+                            <option value="grande">Grande</option>
+                        </select>
+
+                        <label for="edad">Edad:</label>
+                        <select id="edad" name="edad">
+                            <option value="todos">Todos</option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="joven">Joven</option>
+                            <option value="adulto">Adulto</option>
+                        </select>
+
+                        <button type="submit">Filtrar</button>
+                    </form>
+                </div>
+
+                <div>
+                    <div class="perro">
+                        <img src="loki.jpeg" alt="Loki - Labrador mezcla">
+                        <h3>Loki</h3>
+                        <p>Edad: 2 años</p>
+                        <p>Tamaño: Mediano</p>
+                        <p>Personalidad: Juguetón y cariñoso</p>
+                        <a href="loki.html"><button>Conoce más</button></a>
+                    </div>
+                    <div class="perro">
+                        <img src="luna.jpeg" alt="Luna - Pastor alemán">
+                        <h3>Luna</h3>
+                        <p>Edad: 5 años</p>
+                        <p>Tamaño: Grande</p>
+                        <p>Personalidad: Tranquila y protectora</p>
+                        <a href="luna.html"><button>Conoce más</button></a>
+                    </div>
+					<div class="perro">
+                        <img src="jack.jpg" alt="Jack - Beagle">
+                        <h3>Jack</h3>
+                        <p>Edad: 3 años</p>
+                        <p>Tamaño: Pequeño</p>
+                        <p>Personalidad: Curioso y energético</p>
+                        <a href="jack.html"><button>Conoce más</button></a>
+                    </div>
+                    <div class="perro">
+                        <img src="nino.jpeg" alt="nino - Boxer">
+                        <h3>Nino</h3>
+                        <p>Edad: 4 años</p>
+                        <p>Tamaño: Grande</p>
+                        <p>Personalidad: Leal y juguetón</p>
+                        <a href="nino.html"><button>Conoce más</button></a>
+                    </div>
+
+                    <div class="perro">
+                        <img src="tobby.jpg" alt="Tobby - Corgi">
+                        <h3>Tobby</h3>
+                        <p>Edad: 1 año</p>
+                        <p>Tamaño: Pequeño</p>
+                        <p>Personalidad: Inteligente y cariñoso</p>
+                        <a href="tobby.html"><button>Conoce más</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <a name="proceso"></a>
+            <div class="seccion">
+                <h2>Proceso de Adopción</h2>
+                <ol>
+                    <li>
+                        <h3>Visita nuestro refugio</h3>
+                        <p>Conoce a nuestros perros en persona</p>
+                    </li>
+                    <li>
+                        <h3>Formulario de solicitud</h3>
+                        <p>Completa nuestro formulario de adopción</p>
+                    </li>
+                    <li>
+                        <h3>Entrevista</h3>
+                        <p>Nos aseguraremos que sea un buen match</p>
+                    </li>
+                    <li>
+                        <h3>Visita al hogar</h3>
+                        <p>Verificamos que tu espacio sea adecuado</p>
+                    </li>
+                    <li>
+                        <h3>Firma de contrato</h3>
+                        <p>Documentación final y consejos</p>
+                    </li>
+                </ol>
+            </div>
+
+            <a name="contacto"></a>
+            <div class="seccion">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" name="nombre" id="nombre" required>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="text" name="telefono" id="telefono">
+
+                    <label for="mensaje">Comentarios:</label><br>
+                    <textarea id="mensaje" name="Comentarios" required></textarea>
+
+                    <button type="submit">Enviar</button>
+					<button type="reset">Borrar</button>
+                </form>
+
+                <div class="info-contacto">
+                    <h3>Visítanos</h3>
+                    <p>
+                        Calle************ 123<br>
+                        Ciudad, País
+                    </p>
+
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 9am - 9pm</p>
+                    <p>Fin de semana: 11am - 5pm</p>
+
+                    <h3>Teléfono</h3>
+                    <p>+12*********0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
